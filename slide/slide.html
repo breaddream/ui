@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>大彬哥牌slide</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/slide.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            slideFn('imgslide');
+            slideXFn(document.querySelectorAll('.slideWrap')[0]);
+            slideXFn(document.querySelectorAll('.slideWrap')[1]);
+        }, false);
+    </script>
+</head>
+
+<body>
+    <div class="arrow">
+        <span class="uparrow"></span>
+    </div>
+    <span class="left"></span>
+    <span class="right"></span>
+
+    <section class="imgslide" id="imgslide">
+        <div style="background: #000">第一屏</div>
+        <div>
+            <div class="slideWrap">
+                <div class="slide">
+                    <div style="background:red;">来啊！敢不敢左右滑动</div>
+                    <div style="background:yellow;">滑就滑，谁怕你</div>
+                    <div style="background:green;">3</div>
+                    <div style="background:orange;">4</div>
+                    <div style="background:red;">来啊！敢不敢左右滑动</div>
+                    <div style="background:yellow;">滑就滑，谁怕你</div>
+                    <div style="background:green;">3</div>
+                    <div style="background:orange;">4</div>
+                </div>
+            </div>
+        </div>
+        <div style="background:blue">第三屏</div>
+        <div style="background:blue">第四屏</div>
+    </section>
+</body>
+</html>
