@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>模态框</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="backdrop" class="backdrop"></div>
+        <input type="button" value="弹窗1" class="btn">
+        <input type="button" value="弹窗2" class="btn">
+        <input type="button" value="弹窗3" class="btn">
+        <div class="modal">
+            <h1 class="modal__title">你是不是我最疼爱的人?</h1>
+            <div class="modal__actions">
+                <a href="javascript:;" class="modal__action">滚!</a>
+                <button class="modal__action modal__action--negative" type="button">是!</button>
+            </div>
+        </div>
+        <script src="modal.js"></script>
+</body>
+</html>
